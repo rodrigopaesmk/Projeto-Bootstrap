@@ -1,0 +1,41 @@
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+header{
+    margin-top: 20px;
+}
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+
+
+
+ span{
+    text-decoration: none;
+    color: green;
+}
+
+.col h2{
+    margin-bottom: 40px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer{
+    color: #fff;
+    background-color: black;
+    padding: 60px 0px;
+}
