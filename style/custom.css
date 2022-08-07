@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    list-style: none;
+    text-decoration: none;
+}
 
 section {
     padding-bottom: 4rem;
@@ -17,6 +24,17 @@ textarea {
     margin: 10px;
 }
 
+@media (max-width:770px){
+    .card{
+        width: 45%;
+    }
+}
+
+@media (max-width:420px){
+    .card{
+        width: 80%;
+    }
+}
 
 
  span{
@@ -30,12 +48,60 @@ textarea {
 
 .nav-link{
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
+    
+}
+
+.logo{
+    font-size: 32px;
+    text-decoration: none;
+    color: #000;
 }
 
 footer{
     color: #fff;
     background-color: black;
     padding: 60px 0px;
+}
+
+.btn-cta{
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.btn-cta:hover{
+    background-color: #198754;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.navbar-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.box-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff; 
+    background-color: #000;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
